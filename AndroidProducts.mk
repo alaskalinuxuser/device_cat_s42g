@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_S42G.mk
+    $(LOCAL_DIR)/twrp_S42G.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_S42G-user \
-    omni_S42G-userdebug \
-    omni_S42G-eng
+    twrp_S42G-user \
+    twrp_S42G-userdebug \
+    twrp_S42G-eng
