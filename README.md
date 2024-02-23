@@ -24,16 +24,16 @@ ro.build.version.incremental.carrier.eea=LTE_C01091.10_E_S42G_0.037.01.00
 ro.vendor.internal.build.version=V500AE_PVT_10.0_CATB_CFC_45
 ```
 
-## Status
-- MT6761 - A10
+## Status MT6761 - A10
+- [X] WIP
   - Status: booted??
-  - [?] booted
+    - [?] booted
 
   - boot-S42G-A10.img => Working?? Not working?
-  - [?] Working
+    - [?] Working
   
   - encrypt & decrypt => Working?? Not working?
-  - [?] Working
+    - [?] Working
   
 
 # Specs
