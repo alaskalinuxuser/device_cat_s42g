@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo twrp_S42G-user
-add_lunch_combo twrp_S42G-userdebug
-add_lunch_combo twrp_S42G-eng
+#add_lunch_combo twrp_S42G-user
+#add_lunch_combo twrp_S42G-userdebug
+#add_lunch_combo twrp_S42G-eng
