@@ -1,0 +1,118 @@
+
+ro.mediatek.version.branch=alps-mp-q0.mp1
+ro.mediatek.version.release=alps-mp-q0.mp1-V6_tinno.nj.q0mp1.k61v1.64.bsp_P49
+
+ro.jcf.enabled.sar=true
+ro.jcf.enabled.simlock=true
+ro.cat.general.common=true
+ro.cat.feature.paddington_AP_13=true
+ro.cat.feature.Paddington_SC_4=true
+ro.cat.feature.Paddington_MS_4=true
+ro.cat.feature.paddington_ms_3=true
+ro.cat.feature.paddington_ms_13=true
+ro.cat.feature.paddington_mc_8=true
+ro.cat.feature.paddington_mc_8.file.name=S42G.txt
+ro.cat.feature.paddington_ms_32=true
+ro.cat.feature.sim_apps=true
+ro.cat.feature.paddington_sc_3=true
+ro.cat.feature.bluetooth_sco=true
+ro.cat.feature.paddington_ap_21=true
+ro.cat.feature.programmable_key=true
+ro.cat.feature.paddington_nt_2=true
+ro.cat.feature.paddington_ux_2=true
+ro.cat.feature.paddington_nt_8=true
+persist.backup.ntpServer=0.pool.ntp.org
+persist.vendor.pms_removable=1
+persist.jcf.scan_carrier_app_support=true
+ro.cat.feature.always_on_charge_mode=true
+ro.cat.feature.glove_mode=true
+ro.cat.feature.system_on_time=true
+ro.cat.feature.water_detect=true
+ro.cat.feature.paddington_pn_2=true
+
+ro.project=cat
+ro.target=v500
+
+persist.jcf.extd.b.ani.nor=true
+persist.sys.usb.config=none
+
+#
+# PLATFORM_PROPERTIES START
+#
+ro.pt.BT_name=Cat S42
+ro.pt.Wifi_hotspot_name=Cat S42
+ro.pt.wifi_direct_name=Cat S42
+ro.pt.Wifi_hotspot_password=
+ro.pt.charging_tone=false
+ro.pt.fontScale=1
+ro.property.qsb=1
+ro.led.battery_level=90
+#
+# PLATFORM_PROPERTIES END
+#
+#
+# ADDITIONAL VENDOR DEFAULT PROPERTIES
+#
+ro.vndk.version=29
+ro.zygote=zygote32
+
+ro.sf.lcd_density=280
+
+
+
+ro.product.model=S42
+ro.product.brand=Cat
+ro.product.name=S42
+ro.product.name.carrier.eea=S42_EEA
+ro.product.device=S42G
+ro.product.manufacturer=Cat
+
+# ro.build.product is obsolete; use ro.product.device
+ro.build.product=S42G
+
+# Do not try to parse description or thumbprint
+ro.build.description=full_v500-user 10 QP1A.190711.020 LTE_C01091.10_NE_S42G_0.037.01.00 release-keys
+ro.product.display=Cat S42
+ro.custom.build.version=LTE_C01091.10_NE_S42G_0.037.01.00
+ro.tcustom.build.version=LTE_C01091.10_NE_S42G_0.037.01.00
+ro.custom.build.version.carrier.eea=LTE_C01091.10_E_S42G_0.037.01.00
+ro.tcustom.build.version.carrier.eea=LTE_C01091.10_E_S42G_0.037.01.00
+ro.internal.build.version=V500AE_PVT_10.0_CATB_CFC_45
+ro.vendor.custom.build.version=LTE_C01091.10_NE_S42G_0.037.01.00
+ro.vendor.tcustom.build.version=LTE_C01091.10_NE_S42G_0.037.01.00
+ro.vendor.custom.build.version.carrier.eea=LTE_C01091.10_E_S42G_0.037.01.00
+ro.vendor.tcustom.build.version.carrier.eea=LTE_C01091.10_E_S42G_0.037.01.00
+ro.build.version.incremental.carrier.eea=LTE_C01091.10_E_S42G_0.037.01.00
+ro.vendor.internal.build.version=V500AE_PVT_10.0_CATB_CFC_45
+# end build properties
+
+#
+# from device/mediatek/system/common/system.prop
+#
+ro.product.property_source_order=odm,vendor,product,system
+
+# identity
+Build.BRAND=MTK
+
+ro.product.board=mt6761
+ro.board.platform=mt6761
+
+ro.bootimage.build.fingerprint=Cat/S42/S42G:10/QP1A.190711.020/LTE_C01091.10_NE_S42G_0.037.01.00:user/release-keys
+#
+
+ro.hardware.egl=mtk
+
+ro.vendor.mediatek.platform=MT6761
+ro.vendor.mtk_f2fs_enable=1
+
+ro.vendor.mediatek.version.branch=alps-mp-q0.mp1
+ro.vendor.mediatek.version.release=alps-mp-q0.mp1-V6_tinno.nj.q0mp1.k61v1.64.bsp_P49
+
+ro.vendor.mtk_emmc_support=1
+
+ro.vendor.mtk_tee_gp_support=1
+ro.hardware.kmsetkey=trustonic
+ro.vendor.mtk_trustonic_tee_support=1
+
+ro.crypto.volume.filenames_mode=aes-256-cts
+
