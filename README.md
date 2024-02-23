@@ -1,6 +1,6 @@
 # TWRP device tree for Cat S42 (S42G) - MT6761 - A12
+  - A10 updated to A12
  - kernel version [4.19.191] -- 32-bit
-
  - This device tree have encrypt/decrypt mode activated and stock boot.img has 32MB.
 
 ### Firmware version: 
@@ -26,7 +26,7 @@ ro.vendor.internal.build.version=V500AE_PVT_10.0_CATB_CFC_45
   - Status: booted??
     - [?] booted
 
-  - boot-S42G-A10.img => Working?? Not working?
+  - boot-S42G-A12.img => Working?? Not working?
     - [?] Working
   
   - encrypt & decrypt => Working?? Not working?
