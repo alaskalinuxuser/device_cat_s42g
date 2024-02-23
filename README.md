@@ -1,6 +1,3 @@
-A12 stock
-kernel version [4.19.191]
-
 # TWRP device tree for Cat S42 (S42G) - MT6761 - A10
  - kernel version [4.9.190] -- 32-bit
 
