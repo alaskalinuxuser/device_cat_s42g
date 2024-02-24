@@ -8,6 +8,7 @@ ro.product.name.carrier.eea=S42_EEA
 ro.product.device=S42G
 ro.product.manufacturer=Cat
 ro.product.display=Cat S42
+ro.oem.key1=upgrade11
 # Default properties
 ro.boot.hardware=mt6761
 ro.hardware=mt6761
@@ -17,9 +18,11 @@ ro.hardware.egl=mtk
 ro.vendor.mtk_tee_gp_support=1
 ro.hardware.kmsetkey=trustonic
 ro.vendor.mtk_trustonic_tee_support=1
+ro.hardware.gatekeeper=trustonic
 # Storage
 ro.vendor.mtk_f2fs_enable=1
 ro.vendor.mtk_emmc_support=1
+persist.adb.nonblocking_ffs=1
 # identity
 Build.BRAND=MTK
 # Crypto
