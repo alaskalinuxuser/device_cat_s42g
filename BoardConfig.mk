@@ -151,9 +151,14 @@ TW_NO_SCREEN_BLANK := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
 
-TW_INCLUDE_PYTHON := true
-TW_INCLUDE_LPDUMP := true
-TW_INCLUDE_REPACKTOOLS := true
+# Attempt to reducing size img file compiled
+# Exclude mode specific build flags
+TW_EXCLUDE_PYTHON := true
+TW_EXCLUDE_NANO := true
+TW_EXCLUDE_TZDATA := true
+TW_EXCLUDE_BASH := true
+TW_EXCLUDE_LPTOOLS := true
+TW_EXCLUDE_LPDUMP := true
 
 # Charger Mode
 TW_USE_LEGACY_BATTERY_SERVICES := true
@@ -161,11 +166,11 @@ TW_USE_LEGACY_BATTERY_SERVICES := true
 # Excludes
 TW_EXCLUDE_TWRPAPP := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
-TW_EXCLUDE_NANO := false
 TW_EXCLUDE_APEX := true
 
 # Tools
 TW_INCLUDE_FASTBOOTD := true
+TW_INCLUDE_REPACKTOOLS := true
 
 # Debug
 TARGET_USES_LOGD := true
