@@ -143,7 +143,7 @@ PLATFORM_VERSION := 16.1.0
 VENDOR_SECURITY_PATCH := 2022-08-01
 
 # TWRP Configuration
-TW_EXTRA_LANGUAGES := true
+TW_EXTRA_LANGUAGES := false
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
@@ -173,10 +173,11 @@ TW_INCLUDE_FASTBOOTD := true
 TW_INCLUDE_REPACKTOOLS := true
 
 # Debug
-TARGET_USES_LOGD := true
-TWRP_INCLUDE_LOGCAT := true
-
-TWRP_EVENT_LOGGING := false
+#TARGET_USES_LOGD := true
+#TWRP_INCLUDE_LOGCAT := true
+TARGET_USES_LOGD := false
+TWRP_INCLUDE_LOGCAT := false
+#TWRP_EVENT_LOGGING := false
 
 # Storage
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.usb0/lun.%d/file
