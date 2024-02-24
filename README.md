@@ -6,19 +6,19 @@
 ### Firmware version: 
 - cf1f7c3fa1596c87f045cee1508823c98667fa06.zip
 ```ruby
-ro.build.version.incremental=LTE_C01091.10_NE_S42G_0.037.01.00
+ro.build.version.incremental=LTE_C01091.12_NE_S42G_2.012.00
 ro.product.display=Cat S42
-ro.custom.build.version=LTE_C01091.10_NE_S42G_0.037.01.00
-ro.tcustom.build.version=LTE_C01091.10_NE_S42G_0.037.01.00
-ro.custom.build.version.carrier.eea=LTE_C01091.10_E_S42G_0.037.01.00
-ro.tcustom.build.version.carrier.eea=LTE_C01091.10_E_S42G_0.037.01.00
-ro.internal.build.version=V500AE_PVT_10.0_CATB_CFC_45
-ro.vendor.custom.build.version=LTE_C01091.10_NE_S42G_0.037.01.00
-ro.vendor.tcustom.build.version=LTE_C01091.10_NE_S42G_0.037.01.00
-ro.vendor.custom.build.version.carrier.eea=LTE_C01091.10_E_S42G_0.037.01.00
-ro.vendor.tcustom.build.version.carrier.eea=LTE_C01091.10_E_S42G_0.037.01.00
-ro.build.version.incremental.carrier.eea=LTE_C01091.10_E_S42G_0.037.01.00
-ro.vendor.internal.build.version=V500AE_PVT_10.0_CATB_CFC_45
+ro.custom.build.version=LTE_C01091.12_NE_S42G_2.012.00
+ro.tcustom.build.version=LTE_C01091.12_NE_S42G_2.012.00
+ro.custom.build.version.carrier.eea=LTE_C01091.12_E_S42G_2.012.00
+ro.tcustom.build.version.carrier.eea=LTE_C01091.12_E_S42G_2.012.00
+ro.internal.build.version=V500AE_PVT_12.0_CATB_CFC_025
+ro.vendor.custom.build.version=LTE_C01091.12_NE_S42G_2.012.00
+ro.vendor.tcustom.build.version=LTE_C01091.12_NE_S42G_2.012.00
+ro.vendor.custom.build.version.carrier.eea=LTE_C01091.12_E_S42G_2.012.00
+ro.vendor.tcustom.build.version.carrier.eea=LTE_C01091.12_E_S42G_2.012.00
+ro.build.version.incremental.carrier.eea=LTE_C01091.12_E_S42G_2.012.00
+ro.vendor.internal.build.version=V500AE_PVT_12.0_CATB_CFC_025
 ```
 
 ## Status MT6761 - A12
