@@ -113,23 +113,24 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
 BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 3
 
 # Crypto
-TW_INCLUDE_CRYPTO := true
-TW_INCLUDE_FBE := true
-TW_INCLUDE_CRYPTO_FBE := true
-TW_INCLUDE_FBE_METADATA_DECRYPT := true
-TW_USE_FSCRYPT_POLICY := 1
-TW_PREPARE_DATA_MEDIA_EARLY := true
+#TW_INCLUDE_CRYPTO := false
+#TW_INCLUDE_CRYPTO := true
+#TW_INCLUDE_FBE := true
+#TW_INCLUDE_CRYPTO_FBE := true
+#TW_INCLUDE_FBE_METADATA_DECRYPT := true
+#TW_USE_FSCRYPT_POLICY := 1
+#TW_PREPARE_DATA_MEDIA_EARLY := true
 
 # Recovery modules
-TARGET_RECOVERY_DEVICE_MODULES += \
-    libkeymaster4 \
-    libkeymaster41 \
-    libpuresoftkeymasterdevice
+#TARGET_RECOVERY_DEVICE_MODULES += \
+#    libkeymaster4 \
+#    libkeymaster41 \
+#    libpuresoftkeymasterdevice
 
-RECOVERY_LIBRARY_SOURCE_FILES += \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libkeymaster4.so \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libkeymaster41.so \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libpuresoftkeymasterdevice.so
+#RECOVERY_LIBRARY_SOURCE_FILES += \
+#    $(TARGET_OUT_SHARED_LIBRARIES)/libkeymaster4.so \
+#    $(TARGET_OUT_SHARED_LIBRARIES)/libkeymaster41.so \
+#    $(TARGET_OUT_SHARED_LIBRARIES)/libpuresoftkeymasterdevice.so
     
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
@@ -150,6 +151,12 @@ TW_USE_TOOLBOX := true
 TW_NO_SCREEN_BLANK := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
+
+# This device **MAYBE** does not support fastboot boot.
+# Attempt to have the argument in cmdline twrpfastboot=1 set to twrpfastboot=0
+# https://github.com/TeamWin/android_vendor_twrp/commit/93b80a81812a6e4402de7597339264d988961dfb
+# https://github.com/PitchBlackRecoveryProject/vendor_pb/commit/02360c8abdbf9dee7fcf3ab66dc3583b692651e8
+TW_NO_FASTBOOT_BOOT := true
 
 # Attempt to reducing size img file compiled
 # Exclude mode specific build flags
